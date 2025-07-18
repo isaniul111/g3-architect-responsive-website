@@ -187,12 +187,36 @@ main > section{
   border-radius: 8px;
   }
 .fact-title-desc{
-  font-weight: 600;
+  font-weight: 600px;
+}
+/* -------------------------------------footer section style starts hare------ */
+.footer-container{
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-top: 130px;
+}
+.footer-title-desc{
+  max-width: 542px;
+  margin: 0 auto;
+  text-align: center;
+}
+.sopnsors-container{
+  margin-top: 50px;
+  gap: 155px;
+}
+.sopnsors-container > img {
+  width: 100%;
+}
+.footer-copyright{
+  background-color: #FFF4E7;
+  text-align: center;
+  padding: 20px 0;
+  margin:130px 0 215px 0;
 }
 
-
-
-
+.copyright-desc{
+  font-weight: 400px;
+}
 
 /* -------------------------------------responsive media query------ */
 
@@ -221,5 +245,7 @@ main > section{
   gap: 10px;
   align-items: center;
  }
-
+ .sopnsors-container{
+  flex-direction: column;
+ }
 }
