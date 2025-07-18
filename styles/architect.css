@@ -165,6 +165,34 @@ main > section{
 .btn-fea2{
   font-size:1.56rem;
 }
+/* ------------------------------------facts section style begains hare------ */
+
+.fact-container{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.fact-title-desc-container{
+  max-width: 586px;
+}
+.fact-main-container{
+  justify-content: space-evenly;
+  }
+.fact-inner-container{
+  text-align: center;
+}
+.facts-fact-container{
+  max-width: 242px;
+  padding: 30px;
+  border: 1px solid #FF900E;
+  border-radius: 8px;
+  }
+.fact-title-desc{
+  font-weight: 600;
+}
+
+
+
+
 
 /* -------------------------------------responsive media query------ */
 
@@ -180,4 +208,18 @@ main > section{
   .team-images {
     grid-template-columns: repeat(1,1fr);
   }
+  .feature{
+    flex-direction: column;
+    margin-top: 100px;
+  }
+  .feature-btn{
+  margin-top:-90px;
+  margin-left:1px;
+ }
+ .fact-main-container{
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+ }
+
 }
