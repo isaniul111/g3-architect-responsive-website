@@ -24,7 +24,7 @@
   border: none;
 }
 main > section{
-  margin-top: 30px;
+  margin-top: 130px;
 }
 
 /* -------------------------------------------- header style--------*/
@@ -37,7 +37,14 @@ main > section{
 .dark3{
   color: #727272;
 }
-
+.font45{
+  font-size: 2.8rem;
+  font-weight: bold;
+}
+.font20{
+  font-size: 1.25rem;
+  font-weight: 600;
+}
 
 /* ---------------------------------------------- navbar styles------*/
 
@@ -84,18 +91,18 @@ main > section{
   width: 100%;
 }
 
-/* -------------------------------------------Features section style ------ */
-.features{
+/* -------------------------------------------team section style ------ */
+.team{
   align-items: center;
   justify-content: center;
 }
-.feature-images{
+.team-images{
   display: grid;
   grid-template-columns: repeat(2,1fr);
   gap: 24px;
 
 }
-.feaure-contant{
+.team-contant{
   max-width: 537px;
   max-height: 304px;
   margin-left: 70px;
@@ -104,7 +111,7 @@ main > section{
   max-width: 342px;
   max-height: 342px;
 }
-.feature-title{
+.team-title{
   font-size: 2.8rem;
 }
 #quick-list{
@@ -113,16 +120,51 @@ main > section{
 #of-our{
   font-weight: 700;
 }
-#title-feature{
+#title-team{
   color: #FF900E;
   font-weight: 700;
 }
 .feature-desc{
   font-size: 1rem;
 }
+/* -------------------------------------------feature section style ------ */
+.feature{
+  max-width: 1440px;
+  margin: 0 auto;
+  gap: 140px;
+}
+.feature-container{
+  max-width: 586px;
+  max-height: 982px;
 
-
-
+}
+.features-divs{
+  margin-top: 20px;
+  box-shadow:0 5px 30px 0 #0000001a;
+  border-radius: 8px;
+  padding:30px;
+}
+.feature-img{
+  margin-top: 100px;
+}
+.fea-img{
+  width: 100%;
+}
+.feature-btn{
+  width: 342px;
+  height: 200px;
+  margin-top: -100px;
+  margin-left: -100px;
+}
+#btn-fea{
+  font-size:4rem;
+  font-weight: bold;
+  color: #ffffff;
+  padding: 46px 42px;
+}
+.btn-fea2{
+  font-size:1.56rem;
+}
 
 /* -------------------------------------responsive media query------ */
 
@@ -132,10 +174,10 @@ main > section{
   .nav-link,.navbar{
     flex-direction: column;
   }
-  .features {
+  .team {
     flex-direction: column;
   }
-  .feature-images {
+  .team-images {
     grid-template-columns: repeat(1,1fr);
   }
 }
