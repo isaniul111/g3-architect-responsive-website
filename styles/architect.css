@@ -227,6 +227,9 @@ main > section{
   .nav-link,.navbar{
     flex-direction: column;
   }
+  .nav-links{
+    flex-direction: column;
+  }
   .team {
     flex-direction: column;
   }
