@@ -64,6 +64,7 @@ main > section{
   font-size: 1.1rem;
   text-decoration: none;
   padding: 20px;
+  color: #131313;
 }
 .navbar,.banner{
   max-width: 1440px;
